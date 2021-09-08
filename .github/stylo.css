@@ -1,0 +1,66 @@
+body{
+    background-color: lightgray;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+#instext{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    border: 2px solid;
+}
+
+button{
+    display: flex;
+    margin: auto;
+    background-color: dimgray;
+    color: white;
+    font-weight: 600;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+
+div{
+    display: none;
+    background-color: white;
+    border: 2px solid black;
+    margin-bottom: 50px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 5px;
+}
+
+
+@media (min-width:769px){
+    
+    body{
+        background-color:lightsteelblue;
+    }
+
+    #instext{
+       width: auto;
+    }
+
+    button{
+        display: flex;
+        margin: auto;
+        background-color:mediumblue;
+        color: white;
+        font-weight: 600;
+        padding: 5px 10px;
+    }
+
+    div{
+        
+        width: 500px;
+        ;
+    }
+    
+
+}
